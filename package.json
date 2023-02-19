@@ -1,0 +1,16 @@
+{
+  "name": "fancy-notepad",
+  "packageManager": "yarn@3.4.1",
+  "main": "src/main.js",
+  "author": "Wiktor Zając",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^23.1.0"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "monaco-editor": "^0.35.0"
+  }
+}
